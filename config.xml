@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="au.com.news.pgtest" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0">
+    <name>PG Test</name>
+    <description>
+        PG Test
+    </description>
+    <author email="daniel.lee@news.com.au" href="http://www.newsfoundry.com.au">
+        News Innovation
+    </author>
+
+    <content src="app.html" />
+    <access origin="*" />
+
+    <preference name="fullscreen" value="true" />
+    <preference name="orientation" value="portrait" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>
