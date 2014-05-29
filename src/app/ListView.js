@@ -36,7 +36,7 @@ define(function(require, exports, module) {
     // DEFAULT OPTIONS (refer to this.options into ListView)
     ListView.DEFAULT_OPTIONS = {
 		posThreshold: window.innerHeight / 4,
-        velocity: 0.25,
+        velocity: 0.5,
 		listData: null,
         transition: {
             duration: 500,
